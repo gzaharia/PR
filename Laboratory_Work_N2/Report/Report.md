@@ -14,6 +14,8 @@
  ### Tasks:
  1. According to the graph perform the communication and execution between threads.
  
+ ![](https://github.com/gzaharia/PR/blob/master/Laboratory_Work_N2/Screens/Variant.PNG)
+ 
  
  
  
@@ -26,3 +28,17 @@
   
   In the Main class, I have created according to my graph the threads. The second step, I called the setThreadWaiting() method which will set the dependency. Next, I used start() predefined method to start the threads and join() to notify about
   his execution the threads.
+  
+  ![](https://github.com/gzaharia/PR/blob/master/Laboratory_Work_N2/Screens/thread.PNG)
+  
+  ![](https://github.com/gzaharia/PR/blob/master/Laboratory_Work_N2/Screens/main.PNG)
+  
+  ### Output
+  The result can changes every time , because theare are more than one possible way to execute all tasks from threads.
+  
+  ![](https://github.com/gzaharia/PR/blob/master/Laboratory_Work_N2/Screens/output.PNG)
+  
+  
+  ### Conclusion
+  In this laboratory work I have learned how work with threads and how to execute their tasks. Also, I hadn't use many libraries , but I have implemented the whole procees of working the threads. Moreover, I learned about concurency and the parallelism can make the work process of CPU easier, this means that we only 6 Cores but the CPU can execute 1000 of tasks. Managing the threads execution with Monitor lock, synchronized method.
+  
