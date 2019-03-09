@@ -21,9 +21,12 @@
  !()[]
  
  So, according to the language that I have chose at the beginning I have found information about performing the HTTP request in the Java language.
- In Java there are several ways to perform the HTTP requests,so I have chose to use the **HttpUrlConnection**   which open or in other words
- do the conenction between Browser and Server. The UrlConnection class has a lot of methods and functions for performing the functioality of the
- connections and the requests. So, the first methods that I have performed was **GET** , I stipulated this in the **con.setRequestMethod("GET")**.
+ In Java there are several ways to perform the HTTP requests,so I have chose to use the **HttpUrlConnection**   which open or in other words do the conenction between Browser and Server. The UrlConnection class has a lot of methods and functions for performing the functioality of theconnections and the requests.
+ I have the main class where I have the **USER_AGENT** and the calling for each method. 
+ 
+ ![]() 
+ 
+ So, the first methods that I have performed was **GET** , I stipulated this in the **con.setRequestMethod("GET")**.
  Also, I set the property for the User-Agent, which I had mentioned all of possible Browsers that cand work with and the type of encoding **gzip**. 
  
  !()[]  
@@ -52,7 +55,21 @@
  In the **DELETE** method actions is the same as in the POST method. 
  
  The last method I have performed for getting an image from the server. Here I have used another tool from Java , which is **Image** and 
- **JFrame**.
+ **JFrame**. So, here for getting the image I have used the **GET** method. With Image library I read the image and with JFRame I set the parameters for the window where will be displayed the image. 
+ 
+ ![]()
+ 
+ ### Output: 
+ 
+ The result for each method I have verified firstly , in **Postman** and **Browser** also. Second, I compared the results with my result 
+ from console and they were the same.
+ 
+ **Postman Results : **
+ 
+ 
+ 
+ 
+ 
  
  
  
