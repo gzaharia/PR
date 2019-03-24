@@ -7,8 +7,8 @@ import java.util.Enumeration;
 import java.util.Properties;
 
 public class RetrieveEmails {
-    public static final String USERNAME = "zaharia.gabi99@gmail.com";
-    public static final String PASSWORD = "18061997Zaharia12";
+    public static final String USERNAME = "z************.com";
+    public static final String PASSWORD = "<password>";
 
     public static void main(String[] args) {
         // mail server connection parameters.
