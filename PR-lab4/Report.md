@@ -26,7 +26,7 @@
  Next, I created the variable **transport** of type SMTPTransport for connection to the gmail post and sending the credentials and message with all parts (header, message body, attachments) to the receiver. 
  ![]()
  
- In the function **MessageInitiliaze**  I performed the message of MIME() type and initiliazed the the message parts, where I have added the one .txt file **PR-File.txt** and an image **utm.png**. 
+ In the function **MessageInitiliaze**  I performed the message of MIME(Multi-Purpose Internet Mail Extensions) type and initiliazed the the message parts, where I have added the one .txt file **PR-File.txt** and an image **utm.png**. 
  The one question can appeaer : **Where the all of parts are stored and are send?** . So, the answer is clear , we have the **Multipart** initialiazed in the beginning , which is an container that holds multiple body parts.
  
  ![]()
@@ -35,4 +35,14 @@
  
  ![]()
  
- The last function is for properties, which are for configuration : **host**
+ The last function is for properties, which are for configuration : **host**  , **auth**...
+ 
+ ![]()
+ 
+ For retrieving the messages I have another package, which has the RetrieveEmails Class, which retrieve the messages from Inbox Folder from the post. Here, I have the **Store** provider, which connect to the store through POP3. Next, I got the Inbox folder and read the inbox mails. The **Message** array is created for storing the inbox mails and parse them in the correspoding structure. Below, I have 2 functions which are for parsing the information from the mail. 
+ 
+ 1. **getTextFromMessage** - getContent() from the Message part. 
+ 
+ 2. **getTextFromMimeMultipart** - parsing the Html and getting the text from the body.
+ 
+ ![]()
