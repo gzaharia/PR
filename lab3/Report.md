@@ -65,7 +65,7 @@
  The result for each method I have verified firstly , in **Postman** and **Browser** also. Second, I compared the results with my result 
  from console and they were the same.
  
- **Postman Results : **
+ **Postman Results:**
  ![](https://github.com/gzaharia/PR/blob/master/lab3/Screens/postman_get.PNG) 
  
  ![](https://github.com/gzaharia/PR/blob/master/lab3/Screens/postman_post.PNG) 
