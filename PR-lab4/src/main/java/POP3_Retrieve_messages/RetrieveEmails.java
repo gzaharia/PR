@@ -7,10 +7,15 @@ import java.util.Enumeration;
 import java.util.Properties;
 
 public class RetrieveEmails {
-    public static final String USERNAME = "z*********@gmail.com";
-    public static final String PASSWORD = "<password>";
+    public static String USERNAME = "";
+    public static String PASSWORD = "";
 
     public static void main(String[] args) {
+        Scanner input =  new Scanner(System.in);
+        System.ouut.println("Enter the Username :");
+        USERNAME = input.nextLine();
+         System.ouut.println("Enter the Password :");
+        PASSWORD = input.nextLine();
         // mail server connection parameters.
         // setting the host configuration.
         String host = "pop.gmail.com";
