@@ -38,16 +38,16 @@
    **ListenThread()** which the purpose is for starting the new thread for each connected client to the 
    Server. 
    
-   ![]()
+   ![](https://github.com/gzaharia/PR/blob/master/PR-lab5/Screens/Variables.PNG)
    
-   ![]()
+   ![](https://github.com/gzaharia/PR/blob/master/PR-lab5/Screens/second.PNG)
    
    The **userAdd(), userRemove()** methods are for working with users and display information about
    connected users and the name of each of them. The method **sendDisconnect()** is for UI part , this is the logic for
    the Disconnect button and the **Disconnect()** will close the opened thread and one more approach is
    that the name of the user will not be changed, **isConnected(false), tf_username.setEditable(true)**.
   
-   ![]()
+   ![](https://github.com/gzaharia/PR/blob/master/PR-lab5/Screens/third.PNG)
    
    **IncomingReader() implements Runnable** this method will work with all incoming messages from the clients
    and server-side and all the messages will appear on the textView on the UI part.
@@ -64,18 +64,18 @@
    related with threads. So, this method will care of about users that will connect to the Server and will
    create for each of them the new thread separately , the ClientHandler per user.
    
-   ![](Client)
+   ![](https://github.com/gzaharia/PR/blob/master/PR-lab5/Screens/Client.PNG)
    
    Next I have the method **run()** which comes automatically from the Runnable interface, the purpose of this 
    method is for show some information about data, connections to server and the status of the user.
    
-   ![](run)
+   ![](https://github.com/gzaharia/PR/blob/master/PR-lab5/Screens/run.PNG)
    
    The **ServerStart()** method is also important in this laboratory, because this will manage the connection 
    to server and deliver the threads for each client that will connect to the server. The connection is opened
    so, the Client comes to the ServerStart and this will create new thread for this client.
    
-   ![](ServerStart)
+   ![](https://github.com/gzaharia/PR/blob/master/PR-lab5/Screens/ServerStart.PNG)
    
    Next are methods for UI part.
    
@@ -85,9 +85,9 @@
    start first the client the server will not start. Also, for perform some clients you should press
    again to running the client_frame class.
    
-   ![](output1)
+   ![](https://github.com/gzaharia/PR/blob/master/PR-lab5/Screens/output1.PNG)
    
-   ![](online_users_button) 
+   ![](https://github.com/gzaharia/PR/blob/master/PR-lab5/Screens/online_users_button.PNG) 
    
    
    ### Conclusion:
